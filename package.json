@@ -18,9 +18,12 @@
   },
   "homepage": "https://github.com/alexwander/AD_mean#readme",
   "dependencies": {
+    "ejs": "^2.5.1",
     "express": "^4.14.0",
+    "jade": "^1.11.0",
     "jscs": "^3.0.7",
-    "jshint": "^2.9.2"
+    "jshint": "^2.9.2",
+    "pug": "^2.0.0-beta5"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
