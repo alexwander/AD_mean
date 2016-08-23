@@ -1,12 +1,10 @@
 {
-  "name": "airdate",
-  "description": "",
-  "main": "app.js",
+  "name": "library",
+  "version": "0.0.0",
   "authors": [
-    "alewander"
+    "Jonathan Mills <jonathanfmills@gmail.com>"
   ],
-  "license": "ISC",
-  "homepage": "https://github.com/alexwander/AD_mean",
+  "license": "MIT",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -15,9 +13,8 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap": "~3.3.7",
-    "jquery": "^3.1.0",
-    "font-awesome": "^4.6.3"
+    "bootstrap": "~3.3.5",
+    "font-awesome": "~4.4.0"
   },
     "overrides": {
         "bootstrap": {
@@ -35,5 +32,4 @@
             ]
         }
     }
-
 }

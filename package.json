@@ -1,5 +1,5 @@
 {
-  "name": "airdate",
+  "name": "library",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -7,33 +7,22 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/alexwander/AD_mean.git"
-  },
-  "author": "alewander",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/alexwander/AD_mean/issues"
-  },
-  "homepage": "https://github.com/alexwander/AD_mean#readme",
   "dependencies": {
-    "ejs": "^2.5.1",
-    "express": "^4.14.0",
-    "jade": "^1.11.0",
-    "jscs": "^3.0.7",
-    "jshint": "^2.9.2",
-    "pug": "^2.0.0-beta5"
+    "ejs": "^2.3.4",
+    "express": "~4.13.3",
+    "express-handlebars": "~2.0.1",
+    "jade": "~1.11.0",
+    "mongodb": "^2.2.6"
   },
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-inject": "^4.1.0",
-    "gulp-jscs": "^4.0.0",
-    "gulp-jshint": "^2.0.1",
-    "gulp-livereload": "^3.8.1",
-    "gulp-nodemon": "^2.1.0",
-    "gulp-notify": "^2.2.0",
-    "jshint-stylish": "^2.2.0",
-    "wiredep": "^4.0.0"
+    "gulp": "~3.9.0",
+    "gulp-inject": "~1.5.0",
+    "gulp-jscs": "~2.0.0",
+    "gulp-jshint": "~1.11.2",
+    "gulp-nodemon": "~2.0.4",
+    "jshint-stylish": "~2.0.1",
+    "wiredep": "~2.2.2"
   }
 }
