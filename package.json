@@ -1,7 +1,7 @@
 {
   "name": "library",
   "version": "1.0.0",
-  "description": "",
+  "description": "empty",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -14,7 +14,8 @@
     "express": "~4.13.3",
     "express-handlebars": "~2.0.1",
     "jade": "~1.11.0",
-    "mongodb": "^2.2.6"
+    "mongodb": "^2.2.8",
+    "morgan": "^1.7.0"
   },
   "devDependencies": {
     "gulp": "~3.9.0",

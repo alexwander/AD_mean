@@ -40,7 +40,7 @@ gulp.task('inject', function () {
 
 })
 
-gulp.task('serve', ['inject'], function () {
+gulp.task('default', function () {
     var options = {
         script: 'app.js',
         delayTime: 1,
