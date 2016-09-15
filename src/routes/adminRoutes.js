@@ -4,9 +4,9 @@ var mongodb = require('mongodb').MongoClient;
 
 var books = [
         {
-            title: 'ffgggg rsdb in code',
+            title: 'example',
             genre: 'Historical Fiction',
-            author: 'Lev Nikolayevich Tolstoy',
+            author: 'Lev Tolstoy',
             read: false
         },
         {
